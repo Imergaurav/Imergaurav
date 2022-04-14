@@ -23,3 +23,8 @@
         <!-- note that the leading "/" is required for pathPrefix-->
 
     </intent-filter>
+    <intent-filter>
+     ...
+     <data android:scheme="https" android:host="alliance.org />
+     <data android:scheme="app" android:host="open.my.app" />
+      </intent-filter>                                                    
