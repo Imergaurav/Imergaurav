@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest versionCode="8012" package="com.rrivenllc.shieldx" split="config.xhdpi"> 
+  <application hasCode="false" extractNativeLibs="false"> 
+    <meta-data name="com.android.vending.derived.apk.id" value="2"/> 
+  </application>
+</manifest>
+<intent-filter android:label="@string/app_name">
+
+        <action android:name="android.intent.action.VIEW" />
+
+        <category android:name="android.intent.category.DEFAULT" />
+
+        <category android:name="android.intent.category.BROWSABLE" />
+
+        <!-- Accepts URIs that begin with "https://alliancex.org/” -->
+
+        <data android:scheme="https"
+
+              android:host="alliance.org"
+
+              android:pathPrefix="/open" />
+
+        <!-- note that the leading "/" is required for pathPrefix-->
+
+    </intent-filter>
